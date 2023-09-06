@@ -6,8 +6,8 @@ function Navbar({ title, aboutText, mode, toggleMode }) {
   return (
     <nav className={`navbar navbar-expand-lg navbar-${mode} bg-${mode}`}>
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-        {/* <a className="navbar-brand" href="/"> */}
+        {/* <a className="navbar-brand" href="#"> */}
+        <a className="navbar-brand" href="/">
         {/* <Link className="navbar-brand" to="/"> */}
           {title}
         </a>
@@ -29,8 +29,8 @@ function Navbar({ title, aboutText, mode, toggleMode }) {
             {/* <Link className="nav-link active" aria-current="page" to="/">
                 Home
               </Link> */}
-              <a className="nav-link" aria-current="page" href="#">
-              {/* <a className="nav-link active" aria-current="page" href="/"> */}
+              {/* <a className="nav-link" aria-current="page" href="#"> */}
+              <a className="nav-link active" aria-current="page" href="/">
                 Home
               </a>
             </li>

@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
+// import React, { useState } from "react";
 
 export default function About(props) {
-  const [myStyle, setMyStyle] = useState({
-    color: "white",
-    backgroundColor: "black",
-  });
-
+  // const [myStyle, setMyStyle] = useState({
+  //   color: "white",
+  //   backgroundColor: "black",
+  // });
 
   const darkModeColors = {
     background: "#0c070c",
@@ -20,10 +20,10 @@ export default function About(props) {
       style={{ color: props.mode === "dark" ? darkModeColors.text : "black" }}
     >
       <h2 className="h3 pb-1 mb-3 mt-4 border-bottom border-primary">
-            <label htmlFor="myBox" className="form-label">
-            About
-            </label>
-          </h2>
+        <label htmlFor="myBox" className="form-label">
+          About
+        </label>
+      </h2>
       <div
         className="accordion mb-3"
         id="accordionPanelsStayOpenExample"
@@ -31,7 +31,8 @@ export default function About(props) {
           backgroundColor:
             props.mode === "dark" ? darkModeColors.background : "white",
           color: props.mode === "dark" ? darkModeColors.text : "black",
-        }}>
+        }}
+      >
         <div
           className="accordion-item"
           style={{
