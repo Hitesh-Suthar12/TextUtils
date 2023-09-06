@@ -1,5 +1,3 @@
-// // for upload on Git -> type on terminal - ---> git add . (enter then add second command) , git commit -m "Video 5" (again enter)
-
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
@@ -28,12 +26,10 @@ function App() {
       setMode("dark");
       document.body.style.backgroundColor = "#11101c";
       showAlert("Dark mode has been enabled!", "success");
-      // document.title = "TextUtils - Dark Mode";
     } else {
       setMode("light");
       document.body.style.backgroundColor = "white";
       showAlert("Light mode has been enabled!", "success");
-      // document.title = "TextUtils - Light Mode";
     }
   };
 
