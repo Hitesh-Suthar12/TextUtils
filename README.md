@@ -1,3 +1,7 @@
+<h2>Prview of Text Utils Application</h2>
+
+<img src="image/Preview_image.JPG" alt="Preview_image">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

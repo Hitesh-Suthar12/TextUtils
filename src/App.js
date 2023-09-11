@@ -5,6 +5,7 @@ import TextFrom from "./components/TextFrom";
 import About from "./components/About";
 import { useState } from "react";
 import Alert from "./components/Alert";
+import Footer from "./components/Footer";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
         />
         {/* </Routes> */}
         <About mode={mode} />
+        <Footer mode={mode} />
       </div>
       {/* </BrowserRouter> */}
     </>
